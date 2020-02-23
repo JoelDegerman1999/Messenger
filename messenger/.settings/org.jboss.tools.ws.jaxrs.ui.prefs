@@ -23,7 +23,7 @@ org.jboss.tools.ws.jaxrs.ui.validator.problem.providerMissingAnnotation=warning
 org.jboss.tools.ws.jaxrs.ui.validator.problem.providerMissingImplementation=error
 org.jboss.tools.ws.jaxrs.ui.validator.problem.providerMissingValidConstructor=error
 org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceElementInvalidPathParamAnnotationValue=error
-org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceElementUnboundPathParameterAnnotationValue=error
+org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceElementUnboundPathParameterAnnotationValue=ignore
 org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceInvalidPathAnnotationValue=error
 org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceMethodIllegalContextAnnotation=error
 org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceMethodInvalidAnnotatedParameterType=error
@@ -31,5 +31,5 @@ org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceMethodInvalidPathAnnotatio
 org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceMethodInvalidPathParamAnnotationValue=error
 org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceMethodMoreThanOneUnannotatedParameter=error
 org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceMethodNoPublicModifier=warning
-org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceMethodUnboundPathAnnotationTemplateParameter=warning
-org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceMethodUnboundPathParameterAnnotationValue=error
+org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceMethodUnboundPathAnnotationTemplateParameter=ignore
+org.jboss.tools.ws.jaxrs.ui.validator.problem.resourceMethodUnboundPathParameterAnnotationValue=ignore
